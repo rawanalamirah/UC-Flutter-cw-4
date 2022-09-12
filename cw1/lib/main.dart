@@ -14,9 +14,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Container(
+              alignment: Alignment.center,
+              margin: EdgeInsets.all(10),
               child: Row(
                 children: [
                   Center(
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Container(
-              height: 400,
+              alignment: Alignment.center,
               margin: EdgeInsets.all(10),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
